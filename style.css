@@ -1,5 +1,5 @@
 body {
-    background-image: url('./imge/background1.jpg');
+    background-image: url("./imge/background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,15 +27,15 @@ body {
 
 .linavbar:hover {
     background-color: blue;
-    transition: .4s ease-in-out;
-    transition-delay: .3s;
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.3s;
     border-radius: 8px;
 }
 
 .linavbar:hover a {
     color: white;
-    transition: .4s ease-in-out;
-    transition-delay: .3s;
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.3s;
 }
 
 .anavbar {
